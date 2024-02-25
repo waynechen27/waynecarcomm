@@ -1,0 +1,172 @@
+body{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+header
+{
+    background-color: #1f1e1e;
+	color: #fff;
+    padding:15px;
+
+}
+
+.sign
+{
+    align-items: left;
+    display:inline-block;
+    border: 0px;
+    margin: 0px;
+    
+}
+
+.signword
+{
+    align-items: left;
+    display:inline-block;
+    margin-left: 30px;
+    font-size: 30px; 
+    border: 0px;
+    margin: 0px;
+    
+}
+
+nav
+{
+    text-align: left;
+    background-color: #3d3d3d;
+    color: #cccccc;
+    font-size: 20px;
+	padding: 10px;
+}
+
+.nav_header
+{
+ display:inline;
+ margin-right: 30px;
+}
+
+a{
+    color: #cccccc;
+}
+
+.imghead {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+video {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main
+{
+  background-color: #1b1b1b;
+  color: #fff;
+    display:grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-gap:30px;
+  font-size: 20px;
+
+}
+
+.image-container
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap:10px;
+}
+
+.audi
+{
+  margin: 0px; 
+  padding:0px;
+  border: 0px;
+}
+
+.introduction
+{
+    margin: 60px;
+}
+
+.choose
+{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align:center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+ 
+  .image-container img {
+    filter: grayscale(100%);
+    margin: 10px;
+  }
+  
+  
+  .image-container img:hover {
+    filter: grayscale(0%);
+  }
+
+footer
+{
+    font-size: 15px;
+    background-color: #3e3e3e;
+	color: #f0f0f0;
+	padding: 5px;
+	text-align: center;
+}
+
+.suv
+{
+    background-color: #1b1b1b;
+    color: #fff;
+      display:grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap:30px;
+    font-size: 20px;
+}
+
+.suvvideo
+{
+    background-color: #1f1e1e;
+    text-align:right;
+    max-width: 1280px;
+}
+
+.typet
+{
+    background-color: #1b1b1b;
+    color: #fff;
+      display:grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap:30px;
+    
+}
+
+.typet1 {
+    margin-top: 120px;
+    margin-left: 90px;
+    margin-right: 70px;
+    font-size: 60px;
+}
+
+.viewmore{
+    margin-top: 170px;
+    margin-left: 70px;
+    margin-right: 90px;
+    font-size: 70px;
+}
